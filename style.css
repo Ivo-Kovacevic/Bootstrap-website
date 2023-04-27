@@ -1,0 +1,91 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+nav{
+    width: 90%;
+}
+nav ul{
+    margin-bottom: 0;
+    list-style-type: none;
+}
+nav li{
+    float: right;
+    margin: 22px;
+}
+.cap{
+    background-image: url("images/bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog{
+    background-color: #f2f2f2;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 325px;
+    padding-bottom: 325px;
+}
+h2{
+    padding: 25px 0;
+    text-align: center;
+}
+h3{
+    padding: 25px 0;
+}
+.narancasta{
+    background-color:#f36f36;
+}
+img{
+    max-width: 100%;
+}
+iframe{
+    margin: 15px 0;
+}
+.kraj{
+    text-align: center;
+    background-color:#2b2b2b;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    margin: 2px;
+    color: white;
+    padding: 5px 0;
+    height: fit-content;
+}
+a:link{color: white;}
+a:visited{color: white;}
+a:hover{
+    color: #f36f36;
+    transition-duration: 0.4s;
+}
+.cap a{
+    text-decoration: none;
+    text-align: center;
+    margin: 2px;
+    color: white;
+    font-size: 60px;
+    padding: 5px 0;
+}
+.cap a:link{color: white;}
+.cap a:visited{color: white;}
+.cap a:hover{
+    color: #f36f36;
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 1s;
+}
